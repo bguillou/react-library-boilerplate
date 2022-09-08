@@ -1,0 +1,19 @@
+{
+  "name": "react-library-boilerplate",
+  "version": "1.0.0",
+  "description": "A React CRA boilerplate using babel for creating libraries",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bguillou/react-library-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bguillou/react-library-boilerplate/issues"
+  },
+  "homepage": "https://github.com/bguillou/react-library-boilerplate#readme"
+}
