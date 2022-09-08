@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A React CRA boilerplate using babel for creating libraries",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
