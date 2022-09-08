@@ -2,17 +2,19 @@ import React, { useState } from "react";
 
 export function useCounter(defaultCount = 0) {
   const [count, setCount] = useState(defaultCount);
+
   const setMore = () => {
     setCount(count + 1);
   };
+
   return { count, setMore };
 }
 
-export default function Counter({ count = 0, handleMore = () => {} }) {
+export default function Counter({ count = 0, onMore = () => {} }) {
   return (
-    <section>
-      <h6>{count}</h6>
-      <button onClick={handleMore}>One more</button>
+    <section style={{ display: "flex" }}>
+      <h6 style={{ marginRight: 10 }}>{count}</h6>
+      <button onClick={onMore}>One more</button>
     </section>
   );
 }

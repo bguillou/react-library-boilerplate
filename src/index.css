@@ -15,4 +15,28 @@ body,
 
 #root {
   overflow: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.code {
+  display: block;
+  background: #2a2a2a;
+  color: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.demo {
+  display: block;
+  background: #d5d4d4;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px;
 }
